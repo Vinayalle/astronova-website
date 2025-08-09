@@ -8,7 +8,7 @@ export default function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const res = await fetch('https://astronova-website.vercel.app/api/send-email', {
+    const res = await fetch('https://www.astranovain.com/api/send-email', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
