@@ -64,7 +64,11 @@ export async function POST(req: Request) {
       `,
     });
 
-    return NextResponse.json({ success: true });
+    return NextResponse.json({ success: true },{
+    headers: {
+      'Access-Control-Allow-Origin': 'https://www.astranovain.com',
+    },
+  });
   } catch (error) {
     console.error('Email sending error:', error);
     return NextResponse.json({ error: 'Email failed to send' }, { status: 500 });
