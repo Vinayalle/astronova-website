@@ -23,7 +23,7 @@ const Whychoose = () => {
                    </div>
 
                     <div className='w-full md:w-1/2 flex flex-col gap-4'>
-                 <Image src="https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_1280.jpg" alt="about-img" width={400} height={300} layout="responsive" className='rounded-xl'/>
+                 <Image src="https://cdn.pixabay.com/photo/2019/08/06/22/48/artificial-intelligence-4389372_1280.jpg" alt="about-img" width={400} height={300} layout="responsive" className='rounded-xl'/>
                </div>
    
    
