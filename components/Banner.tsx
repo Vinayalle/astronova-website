@@ -7,7 +7,7 @@ const Banner = () => {
     <div className='w-full  py-10 text-white '>
 
         <div className='px-2 sm:px-2.5 flex flex-col justify-center items-center gap-5'>
-              <h1 className='text-7xl font-bold text-center '>Innovate. <br/>
+              <h1 className='text-7xl font-bold text-center '>Innovate... <br/>
 Automate. Elevate.</h1>
               <p>We are a team of growth experts focused on helping brands reach their goals, increase sales, and get quality leads through tailored strategies and complete support.
 </p>
